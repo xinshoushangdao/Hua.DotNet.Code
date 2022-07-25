@@ -4,7 +4,7 @@
 		<TargetFrameworks>netstandard2.1;netstandard2.0;</TargetFrameworks>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Version>0.0.4</Version>
+		<Version>0.0.5</Version>
 		<Authors>Hua</Authors>
 		<Company>XinShouShangDao</Company>
 		<Product>Hua.DotNet.Code</Product>
@@ -14,8 +14,8 @@
 		<LangVersion>latest</LangVersion>
 		<PackageIcon>logo.jpg</PackageIcon>
 		<PackageTags>Hua;Code;</PackageTags>
-		<AssemblyVersion>0.0.0.4</AssemblyVersion>
-		<FileVersion>0.0.0.4</FileVersion>
+		<AssemblyVersion>0.0.0.5</AssemblyVersion>
+		<FileVersion>0.0.0.5</FileVersion>
 		<SignAssembly>True</SignAssembly>
 		<DelaySign>False</DelaySign>
 		<AssemblyOriginatorKeyFile>D:\Paths\Hua.snk</AssemblyOriginatorKeyFile>
