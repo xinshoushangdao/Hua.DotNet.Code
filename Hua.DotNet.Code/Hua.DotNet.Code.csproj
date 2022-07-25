@@ -1,62 +1,62 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-	 <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>0.0.4</Version>
-    <Authors>Hua</Authors>
-    <Company>XinShouShangDao</Company>
-    <Product>Hua.DotNet.Code</Product>
-    <Copyright></Copyright>
-    <NeutralLanguage>zh-CN</NeutralLanguage>
-    <Description>邵华基础类库</Description>
-    <LangVersion>latest</LangVersion>
-	<PackageIcon>logo.jpg</PackageIcon>
-    <PackageTags>Hua;Code;</PackageTags>
-    <AssemblyVersion>0.0.0.4</AssemblyVersion>
-    <FileVersion>0.0.0.4</FileVersion>
-    <SignAssembly>True</SignAssembly>
-    <DelaySign>False</DelaySign>
-    <AssemblyOriginatorKeyFile>D:\Paths\Hua.snk</AssemblyOriginatorKeyFile>
-    <PackageReleaseNotes>邵华基础类库</PackageReleaseNotes>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.1;netstandard2.0;</TargetFrameworks>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Version>0.0.4</Version>
+		<Authors>Hua</Authors>
+		<Company>XinShouShangDao</Company>
+		<Product>Hua.DotNet.Code</Product>
+		<Copyright></Copyright>
+		<NeutralLanguage>zh-CN</NeutralLanguage>
+		<Description>邵华基础类库</Description>
+		<LangVersion>latest</LangVersion>
+		<PackageIcon>logo.jpg</PackageIcon>
+		<PackageTags>Hua;Code;</PackageTags>
+		<AssemblyVersion>0.0.0.4</AssemblyVersion>
+		<FileVersion>0.0.0.4</FileVersion>
+		<SignAssembly>True</SignAssembly>
+		<DelaySign>False</DelaySign>
+		<AssemblyOriginatorKeyFile>D:\Paths\Hua.snk</AssemblyOriginatorKeyFile>
+		<PackageReleaseNotes>邵华基础类库</PackageReleaseNotes>
+	</PropertyGroup>
 
 
-  <ItemGroup>
-    <Content Include="logo.jpg" />
-  </ItemGroup>
+	<ItemGroup>
+		<Content Include="logo.jpg" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-    <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.1" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+		<PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <None Include="C:\Users\ShaoHuaPc\Pictures\logo.jpg">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="Ex\Ex.Enum.cs" />
-    <None Include="Ex\Ex.Linq.cs" />
-    <None Include="Ex\Ex.Str.Code.cs" />
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="C:\Users\ShaoHuaPc\Pictures\logo.jpg">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="Ex\Ex.Enum.cs" />
+		<None Include="Ex\Ex.Linq.cs" />
+		<None Include="Ex\Ex.Str.Code.cs" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <Compile Update="Properties\Resources.Designer.cs">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
+	<ItemGroup>
+		<Compile Update="Properties\Resources.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>Resources.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Update="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Update="Properties\Resources.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>Resources.Designer.cs</LastGenOutput>
+		</EmbeddedResource>
+	</ItemGroup>
 
 </Project>
